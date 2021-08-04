@@ -35,7 +35,7 @@ const Footer = () => {
         }}
         id="footer-text"
       >
-        {`© ${new Date().getFullYear()} Copyright: yourcompany.com! All Rights Reserved`}
+        {`© ${new Date().getFullYear()} Copyright: James Armbrust, MIT License`}
       </AppBar>
     </React.Fragment>
   )

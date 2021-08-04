@@ -29,7 +29,7 @@ app.all('*', async (req, res) => {
   const { limit = 10 } = req.query
 
   if (limit > 20) {
-    res.status(403).send('Forbidden! Limit ca´t be higher than 20')
+    res.status(403).send('Forbidden! Limit can´t be higher than 20')
   }
 
   const companies = []
